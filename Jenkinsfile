@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	
 	stages {
-	    stages('Build'){
+	    stage('Build'){
 	    	when {
 			buildingTag()
 		}
